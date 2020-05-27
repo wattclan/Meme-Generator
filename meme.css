@@ -1,0 +1,43 @@
+
+.memeStorage{
+    width: 300px;
+    text-align: center;
+}
+.image { 
+    position: relative; 
+    width: 100%; 
+    display: inline-block;
+    z-index: 0;
+ }
+ .memeDiv{
+    width: 300px;
+    text-align: center;
+}
+ 
+ .top { 
+    position: absolute;  
+    color: white;
+    -webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
+    font: bold 15px/45px Helvetica, Sans-Serif; 
+    margin-left: 20px;
+    margin-top: 0px;
+    z-index: 1;
+   
+    
+ }
+ 
+ .bottom { 
+    position: absolute; 
+    color: white;
+    -webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
+    font: bold 15px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    padding: 2px; 
+    margin-left: 20px;
+    margin-top: 100px;
+    z-index: 1;  
+   
+}
+ 
